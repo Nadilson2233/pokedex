@@ -31,29 +31,39 @@ header{
 section{
     display: grid;
     justify-items: center;
-    background: rgb(230, 245, 24);
+    background: rgb(255, 255, 255);
     padding: 10px 0;
     gap: 10px;
     min-height: 70vh;
 }
 
-#conteudo-um{
+.conteudo{
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
 }
 
-#conteudo-dois{
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-#conteudo-um img {
+.conteudo img{
     width: 400px;
 }
 
-#conteudo-dois img{
-    width: 200px;
+.conteudo div{
+    height: 225px;
+    overflow: hidden;
+}
+
+#Deoxys{
+    position: relative;
+    top: -19px;
+}
+
+#texto-um {
+    width: 400px;
+}
+
+#texto-dois{
+    width: 400px;
+    text-align: right;
 }
 
 footer{
