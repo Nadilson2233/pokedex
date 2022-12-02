@@ -6,68 +6,139 @@ font-family: Arial, Helvetica, sans-serif;
 
 header{
     width: 100%;
-    background-color: rgb(233, 45, 45);
-    min-height: 15vh;
+    background-color: rgb(48, 48, 48);
     display: grid;
-    place-items: end;
     font-size: 16px;
+    border-bottom: 0.1vh solid #000;
+}
+
+
+#topo{
+    width: 300px;
+    height: auto;
+    justify-self: center;
+    position: relative;
+    top: 20px;
+}
+
+.styled {
+    border: 20;
+    line-height: 2.5;
+    padding: 30px;
+    margin: 15%;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgb(253, 152, 57);
+    position: relative;
+    top: -80px;
 }
 
 #menu {
     margin: 10px;
+    justify-self: end;
+    position: relative;
+    bottom: 45px;
 }
 
 #menu a {
     text-decoration: none;
-    color: #333;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     padding: 0 10px;
 }
 
 #menu a:hover{
-    color: #666;
+    color: rgb(123, 190, 96);
 }
 
 section{
     display: grid;
     justify-items: center;
-    background: rgb(255, 255, 255);
     padding: 10px 0;
     gap: 10px;
     min-height: 70vh;
+    border-bottom: 0.1vh solid #000;
 }
 
-.conteudo{
+.conteudo-um{
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
+    justify-self: start;
+    margin-left: 150px;
 }
 
-.conteudo img{
+.conteudo-um img{
     width: 400px;
 }
 
-.conteudo div{
+.conteudo-um div{
     height: 225px;
     overflow: hidden;
 }
 
-#Deoxys{
+
+.conteudo-dois{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    justify-self: end;
+    margin-right: 150px;
+}
+
+.conteudo-dois img{
+    width: 400px;
+}
+
+.conteudo-dois div{
+    height: 225px;
+    overflow: hidden;
+    margin-right: 35px;
+}
+
+#Mine{
     position: relative;
     top: -19px;
 }
 
+#textobase{
+    width: 600px;
+    text-align: center;
+    padding-left: 22%;
+    height: 200px;
+}
+
 #texto-um {
     width: 400px;
+    padding-left: 10%;
 }
 
 #texto-dois{
     width: 400px;
     text-align: right;
+    padding-right: 20%;
+}
+
+.conteudo p{
+    color: #666;
 }
 
 footer{
     display: grid;
     place-items: center;
-    min-height: 10vh;
+    min-height: 6vh;
 }
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
